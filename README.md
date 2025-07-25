@@ -5,6 +5,14 @@ Built with **HTML**, **CSS**, and **JavaScript (jQuery)**.
 
 ---
 
+## ⚠️ Note
+
+This game is **not fully responsive yet**.  
+It works best on **desktop/laptop** screens.  
+If things look broken, try **zooming out** a bit in your browser.
+
+---
+
 ## 🎯 How to Play
 
 - Press **A** to move the basket left  
