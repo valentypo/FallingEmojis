@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.container{
+    background-color: rgb(31, 60, 107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+    height: 100vh;
+}
+
+.game-box{
+    position: relative;
+    background-image: url("./images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 10px solid white;
+    width: 1000px;
+    height: 700px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#htp-header{
+    font-size: 2.5rem;
+    font-family: "Comfortaa", sans-serif;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.how-to-play {
+    display: none;
+    position: fixed;
+    font-family: "Comfortaa", sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.65);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    max-width: 400px;
+    z-index: 9999;
+    text-align: center;
+}
+
+#close-htp{
+    margin-top: 10px;
+}
+
+.open-htp{
+    width: auto;
+    height: 5vh;
+    position: absolute;
+    top: 4vh;
+    right: 2.5vw;
+    color: white;
+}
+
+#game-title{
+    color: rgb(255, 170, 0);
+    font-family: "Bitcount Prop Single", sans-serif;
+    font-size: 2.6rem;
+}
+
+#game-score{
+    font-family: "Comfortaa", sans-serif;
+    color: rgb(223, 174, 41);
+    font-size: 1.5rem;
+}
+
+#basket-img{
+    position: absolute;
+    width: auto;
+    height: 80px;
+    bottom: 0;
+    left: 0px;
+    z-index: 5;
+}
+
+#falling-emoji{
+    position: absolute;
+    font-size: 35px;
+    top: 0px;
+    left: 500px;
+    z-index: 4;
+    display: none;
+}

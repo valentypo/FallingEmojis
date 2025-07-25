@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falling Emojis</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1 id="game-title">😮 Falling Emojis 😮</h1>
+        <img class="open-htp" src="./images/question-mark.svg" alt="questionmark">
+        <div class="game-box">
+            <p id="falling-emoji" display="none">😏</p>
+            <div class="how-to-play ">
+                <ul>
+                <li id="htp-header">Tutorial</li>
+                <li>Use <strong><code>A</code></strong> to move the basket left.</li>
+                <li>Use <strong><code>D</code></strong> to move the basket right.</li>
+                <li>Catch the falling emojis with your basket.</li>
+                <li>Each emoji you catch gives you 1 point.</li>
+                <li>Missing an emoji costs 1 life. You have 3 lives!</li>
+                <li>Game gets faster as your score increases 😵‍💫!!</li>
+                <li id="close-htp" style="color: red; font-family: 'Courier New', Courier, monospace;">Click here to close the Tutorial.</li>
+                </ul>
+            </div>
+            <img id="basket-img" src="./images/basket.png" alt="basket">
+        </div>
+        <h3 id="game-score">Press any key to start!</h3>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
